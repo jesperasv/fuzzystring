@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyStringConsole", "FuzzyStringConsole\FuzzyStringConsole.csproj", "{FFE75CA6-E76E-4977-85D3-B6F256ACA5E6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyString", "FuzzyString\FuzzyString.csproj", "{2AAA900B-64FB-4874-9444-64AE33ACA970}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzzyString", "FuzzyString\FuzzyString.csproj", "{2AAA900B-64FB-4874-9444-64AE33ACA970}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8CFDC47C-8A8B-4163-A61C-2535CD872A64}"
 	ProjectSection(SolutionItems) = preProject
@@ -14,22 +12,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzzyStringConsole", "FuzzyStringConsole\FuzzyStringConsole.csproj", "{BF0867DF-7E0D-45F0-AAC8-153CC724F829}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FFE75CA6-E76E-4977-85D3-B6F256ACA5E6}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{FFE75CA6-E76E-4977-85D3-B6F256ACA5E6}.Debug|Any CPU.Build.0 = Release|Any CPU
-		{FFE75CA6-E76E-4977-85D3-B6F256ACA5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FFE75CA6-E76E-4977-85D3-B6F256ACA5E6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2AAA900B-64FB-4874-9444-64AE33ACA970}.Debug|Any CPU.ActiveCfg = Release|Any CPU
 		{2AAA900B-64FB-4874-9444-64AE33ACA970}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{2AAA900B-64FB-4874-9444-64AE33ACA970}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AAA900B-64FB-4874-9444-64AE33ACA970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0867DF-7E0D-45F0-AAC8-153CC724F829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0867DF-7E0D-45F0-AAC8-153CC724F829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0867DF-7E0D-45F0-AAC8-153CC724F829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0867DF-7E0D-45F0-AAC8-153CC724F829}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39A33BB6-0A39-4970-A180-6C4FE14C553E}
 	EndGlobalSection
 EndGlobal

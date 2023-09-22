@@ -1,10 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netcoreapp3.1;net7.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>FuzzyString</PackageId>
     <PackageLicenseUrl>./Resources/License.txt</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/kdjones/fuzzystring</PackageProjectUrl>
     <RepositoryUrl>https://github.com/kdjones/fuzzystring</RepositoryUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>False</Optimize>
   </PropertyGroup>
 </Project>
